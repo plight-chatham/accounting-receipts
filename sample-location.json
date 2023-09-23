@@ -1,0 +1,20 @@
+{'business_status': 'OPERATIONAL', 'geometry': {'location': {'lat': 40.411437,
+'lng': -80.04576449999999}, 'viewport': {'northeast': {'lat': 40.41290862989272,
+'lng': -80.04462512010727}, 'southwest': {'lat': 40.41020897010728, 'lng': -
+80.04732477989272}}}, 'icon':
+'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png',
+'icon_background_color': '#4B96F3', 'icon_mask_base_uri':
+'https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet', 'name':
+'Ace Hardware', 'opening_hours': {'open_now': True}, 'photos': [{'height': 1536,
+'html_attributions': ['<a
+href="https://maps.google.com/maps/contrib/102129387558668411255">A Google
+User</a>'], 'photo_reference':
+'ATJ83zhsZZEUpezuzv2LpFtnkJ4wloxGeHpe6PSRCAwPENfJK_DoDBSpRVKqJhGSNZNHt3bz2bm6Xp0A
+AJyQgpbLb05sZ6Yc1BlOi6IYRGWllIVLmMue5keyFXKYSlyfcEyseXANoxS_V6ID6VkeCTFaluc02UVHT
+THeCXyxhEyoIwJ-iFDuM0', 'width': 2048}], 'place_id':
+'ChIJFy2iXPz2NIgR_2_UdHhR0fo', 'plus_code': {'compound_code': 'CX63+HM
+Pittsburgh, Pennsylvania', 'global_code': '86GXCX63+HM'}, 'price_level': 2,
+'rating': 4.7, 'reference': 'ChIJFy2iXPz2NIgR_2_UdHhR0fo', 'scope': 'GOOGLE',
+'types': ['hardware_store', 'home_goods_store', 'point_of_interest', 'store',
+'establishment'], 'user_ratings_total': 404, 'vicinity': '1079 Greentree Rd,
+Pittsburgh'}
