@@ -25,22 +25,56 @@ def main():
     write_receipts(receipts)
 
     all_known_addresses = map_all_addresses_to_lat_long(client_name_to_hardware_nearby, projects)
-    #distance_lookup_table = compute_all_distances(all_known_addresses)
+    # distance_lookup_table = compute_all_distances(all_known_addresses)
 
 
-def write_receipts(receipts):
-    # output
-    print(f"writing {len(receipts)} receipts")
-    with open('receipts.csv', 'w', encoding='utf-8-sig') as receipt_file:
-        field_names = ["Date",
-                       "Employee Name",
-                       "Supplier",
-                       "Supplier Address",
-                       "Amount"]
-        writer = csv.DictWriter(receipt_file, fieldnames=field_names)
-        writer.writeheader()
-        for receipt in receipts:
-            writer.writerow(receipt)
+# noinspection PyTypeChecker
+def load_projects_from_csv() -> list[dict]:
+    """
+    open the file projects.csv to find a list of projects. Each project contains (at least)
+    a value for Client, Contract Start date, Work Start and End dates, and Address.
+    :return: a list of maps, each map representing the info about one project.
+    """
+    projects: list[dict] = []
+    with open("projects.csv", "r", encoding='utf-8-sig') as projectsFile:
+        project_reader = csv.DictReader(projectsFile)
+        for row in project_reader:
+            projects.append(row)
+    return projects
+
+
+def fetch_hardware_nearby(gmaps: Client, projects):
+    """
+    for each construction project in a list, determine what hardware stores
+    are nearby the job site.
+
+    :param gmaps: a Google Maps client
+    :param projects: a list of dictionaries representing different projects
+    :return: the hardware stores which are within a 10km (6mi) radius of each
+      project. Results are returned as a map from client name to nearby locations.
+    """
+    client_name_to_hardware_nearby = {}
+    # when = datetime.date(2022,1,1) + datetime.timedelta(float(random.randint(1,365)))
+    # fetch the hardware stores near each project
+
+    for project in projects:
+        project_location = gmaps.geocode(project["Address"])[0]
+        project_lat_long = project_location["geometry"]["location"]
+        project["location"] = project_location
+        project["lat_long"] = project_lat_long
+        nearby_hardware = gmaps.places_nearby(location=project_lat_long,
+                                              keyword="hardware",
+                                              radius=10000)
+
+        # there's a specific True Value retailer whose address is just "White Oak."
+        # this doesn't look "right", so we are going to remove any vendors who have
+        # addresses which don't contain a street number.
+        nearby_results = nearby_hardware["results"]
+        nearby_results = list(filter(lambda loc: begins_with_a_number.match(loc["vicinity"]) is not None,
+                                     nearby_results))
+
+        client_name_to_hardware_nearby[project["Client"]] = nearby_results
+    return client_name_to_hardware_nearby
 
 
 def generate_receipts(client_name_to_hardware_nearby, projects, num_receipts=350):
@@ -94,53 +128,19 @@ def pick_date_for_receipt(project):
     return receipt_date
 
 
-def fetch_hardware_nearby(gmaps: Client, projects):
-    """
-    for each construction project in a list, determine what hardware stores
-    are nearby the job site.
-
-    :param gmaps: a Google Maps client
-    :param projects: a list of dictionaries representing different projects
-    :return: the hardware stores which are within a 10km (6mi) radius of each
-      project. Results are returned as a map from client name to nearby locations.
-    """
-    client_name_to_hardware_nearby = {}
-    # when = datetime.date(2022,1,1) + datetime.timedelta(float(random.randint(1,365)))
-    # fetch the hardware stores near each project
-
-    for project in projects:
-        project_location = gmaps.geocode(project["Address"])[0]
-        project_lat_long = project_location["geometry"]["location"]
-        project["location"] = project_location
-        project["lat_long"] = project_lat_long
-        nearby_hardware = gmaps.places_nearby(location=project_lat_long,
-                                              keyword="hardware",
-                                              radius=10000)
-
-        # there's a specific True Value retailer whose address is just "White Oak."
-        # this doesn't look "right", so we are going to remove any vendors who have
-        # addresses which don't contain a street number.
-        nearby_results = nearby_hardware["results"]
-        nearby_results = list(filter(lambda loc: begins_with_a_number.match(loc["vicinity"]) is not None,
-                                     nearby_results))
-
-        client_name_to_hardware_nearby[project["Client"]] = nearby_results
-    return client_name_to_hardware_nearby
-
-
-# noinspection PyTypeChecker
-def load_projects_from_csv() -> list[dict]:
-    """
-    open the file projects.csv to find a list of projects. Each project contains (at least)
-    a value for Client, Contract Start date, Work Start and End dates, and Address.
-    :return: a list of maps, each map representing the info about one project.
-    """
-    projects: list[dict] = []
-    with open("projects.csv", "r", encoding='utf-8-sig') as projectsFile:
-        project_reader = csv.DictReader(projectsFile)
-        for row in project_reader:
-            projects.append(row)
-    return projects
+def write_receipts(receipts):
+    # output
+    print(f"writing {len(receipts)} receipts")
+    with open('receipts.csv', 'w', encoding='utf-8-sig') as receipt_file:
+        field_names = ["Date",
+                       "Employee Name",
+                       "Supplier",
+                       "Supplier Address",
+                       "Amount"]
+        writer = csv.DictWriter(receipt_file, fieldnames=field_names)
+        writer.writeheader()
+        for receipt in receipts:
+            writer.writerow(receipt)
 
 
 def map_all_addresses_to_lat_long(client_name_to_hardware_nearby: dict, projects: list[dict]) -> dict:
