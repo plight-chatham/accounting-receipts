@@ -21,6 +21,27 @@ def main():
     projects = load_projects_from_csv()
     client_name_to_hardware_nearby = fetch_hardware_nearby(gmaps, projects)
 
+    receipts = generate_receipts(client_name_to_hardware_nearby, projects)
+    write_receipts(receipts)
+
+    
+
+
+def write_receipts(receipts):
+    # output
+    with open('receipts.csv', 'w', encoding='utf-8-sig') as receipt_file:
+        field_names = ["Date",
+                       "Employee Name",
+                       "Supplier",
+                       "Supplier Address",
+                       "Amount"]
+        writer = csv.DictWriter(receipt_file, fieldnames=field_names)
+        writer.writeheader()
+        for receipt in receipts:
+            writer.writerow(receipt)
+
+
+def generate_receipts(client_name_to_hardware_nearby, projects):
     # generate a bunch of plausible receipts, each one associated with a particular project.
     receipts = []
     for i in range(350):
@@ -37,18 +58,7 @@ def main():
                          "Supplier": vendor["name"],
                          "Supplier Address": vendor["vicinity"],
                          "Amount": receipt_amount})
-
-    # output
-    with open('receipts.csv', 'w', encoding='utf-8-sig') as receipt_file:
-        field_names = ["Date",
-                       "Employee Name",
-                       "Supplier",
-                       "Supplier Address",
-                       "Amount"]
-        writer = csv.DictWriter(receipt_file, fieldnames=field_names)
-        writer.writeheader()
-        for receipt in receipts:
-            writer.writerow(receipt)
+    return receipts
 
 
 def pick_date_for_receipt(project):
