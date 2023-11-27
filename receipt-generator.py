@@ -1,34 +1,36 @@
 import random
 import datetime
 import csv
+import re
+from typing import List
+
 import googlemaps
+from googlemaps import Client
 
-
-def pick_vendor_from_list(client_name_to_hardware_nearby, client_name):
-    vendors = client_name_to_hardware_nearby[client_name]
-    return random.choice(vendors)
+begins_with_a_number = re.compile("^[0-9]+.*")
 
 
 def main():
-
     # connect to google maps API
     with open('apikey.txt') as f:
         api_key = f.readline()
         f.close()
-    gmaps = googlemaps.Client(api_key)
+    gmaps: Client = googlemaps.Client(api_key)
 
     # load the data we'll need to generate a bunch of receipts for the students to work on.
-    projects = load_projects_from_csv()
+    projects: list[dict] = load_projects_from_csv()
     client_name_to_hardware_nearby = fetch_hardware_nearby(gmaps, projects)
 
     receipts = generate_receipts(client_name_to_hardware_nearby, projects)
     write_receipts(receipts)
 
-    
+    all_known_addresses = map_all_addresses_to_lat_long(client_name_to_hardware_nearby, projects)
+    #distance_lookup_table = compute_all_distances(all_known_addresses)
 
 
 def write_receipts(receipts):
     # output
+    print(f"writing {len(receipts)} receipts")
     with open('receipts.csv', 'w', encoding='utf-8-sig') as receipt_file:
         field_names = ["Date",
                        "Employee Name",
@@ -41,10 +43,11 @@ def write_receipts(receipts):
             writer.writerow(receipt)
 
 
-def generate_receipts(client_name_to_hardware_nearby, projects):
+def generate_receipts(client_name_to_hardware_nearby, projects, num_receipts=350):
     # generate a bunch of plausible receipts, each one associated with a particular project.
+    print(f"generating {num_receipts} receipts for {len(projects)} projects.")
     receipts = []
-    for i in range(350):
+    for i in range(num_receipts):
         project = random.choice(projects)
         receipt_date = pick_date_for_receipt(project)
         # randomly pick a vendor from the ones near this project.
@@ -59,6 +62,11 @@ def generate_receipts(client_name_to_hardware_nearby, projects):
                          "Supplier Address": vendor["vicinity"],
                          "Amount": receipt_amount})
     return receipts
+
+
+def pick_vendor_from_list(client_name_to_hardware_nearby, client_name):
+    vendors = client_name_to_hardware_nearby[client_name]
+    return random.choice(vendors)
 
 
 def pick_date_for_receipt(project):
@@ -86,7 +94,7 @@ def pick_date_for_receipt(project):
     return receipt_date
 
 
-def fetch_hardware_nearby(gmaps, projects):
+def fetch_hardware_nearby(gmaps: Client, projects):
     """
     for each construction project in a list, determine what hardware stores
     are nearby the job site.
@@ -99,29 +107,57 @@ def fetch_hardware_nearby(gmaps, projects):
     client_name_to_hardware_nearby = {}
     # when = datetime.date(2022,1,1) + datetime.timedelta(float(random.randint(1,365)))
     # fetch the hardware stores near each project
+
     for project in projects:
         project_location = gmaps.geocode(project["Address"])[0]
         project_lat_long = project_location["geometry"]["location"]
+        project["location"] = project_location
+        project["lat_long"] = project_lat_long
         nearby_hardware = gmaps.places_nearby(location=project_lat_long,
                                               keyword="hardware",
                                               radius=10000)
 
-        client_name_to_hardware_nearby[project["Client"]] = nearby_hardware["results"]
+        # there's a specific True Value retailer whose address is just "White Oak."
+        # this doesn't look "right", so we are going to remove any vendors who have
+        # addresses which don't contain a street number.
+        nearby_results = nearby_hardware["results"]
+        nearby_results = list(filter(lambda loc: begins_with_a_number.match(loc["vicinity"]) is not None,
+                                     nearby_results))
+
+        client_name_to_hardware_nearby[project["Client"]] = nearby_results
     return client_name_to_hardware_nearby
 
 
-def load_projects_from_csv():
+# noinspection PyTypeChecker
+def load_projects_from_csv() -> list[dict]:
     """
     open the file projects.csv to find a list of projects. Each project contains (at least)
     a value for Client, Contract Start date, Work Start and End dates, and Address.
     :return: a list of maps, each map representing the info about one project.
     """
-    projects = []
+    projects: list[dict] = []
     with open("projects.csv", "r", encoding='utf-8-sig') as projectsFile:
         project_reader = csv.DictReader(projectsFile)
         for row in project_reader:
             projects.append(row)
     return projects
+
+
+def map_all_addresses_to_lat_long(client_name_to_hardware_nearby: dict, projects: list[dict]) -> dict:
+    result = {}
+
+    # first, map all the project addresses to their lat/longs
+    for project in projects:
+        result[project["Address"]] = project["lat_long"]
+
+    # now, do the same for all vendors
+    for client_name in client_name_to_hardware_nearby:
+        for vendor in client_name_to_hardware_nearby[client_name]:
+            result[vendor["vicinity"]] = vendor["geometry"]["location"]
+            pass
+            # result[vendor["Address"]]
+
+    return result
 
 
 def parse_date(date_str):
