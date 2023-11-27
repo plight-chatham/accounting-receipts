@@ -1,3 +1,4 @@
+import math
 import random
 import datetime
 import csv
@@ -25,7 +26,14 @@ def main():
     write_receipts(receipts)
 
     all_known_addresses = map_all_addresses_to_lat_long(client_name_to_hardware_nearby, projects)
-    # distance_lookup_table = compute_all_distances(all_known_addresses)
+    distance_lookup_table = compute_all_distances(all_known_addresses)
+    distance_lookup_rows = []
+    for address1 in distance_lookup_table:
+        for address2 in distance_lookup_table[address1]:
+            distance_lookup_rows.append({"Address1": address1,
+                                         "Address2": address2,
+                                         "kmApart": distance_lookup_table[address1][address2]})
+    write_distance_lookup(distance_lookup_rows)
 
 
 # noinspection PyTypeChecker
@@ -158,6 +166,51 @@ def map_all_addresses_to_lat_long(client_name_to_hardware_nearby: dict, projects
             # result[vendor["Address"]]
 
     return result
+
+
+def compute_all_distances(all_known_addresses:dict[dict]) -> dict[dict[float]]:
+    result = {}
+    for address1 in all_known_addresses:
+        lat_long_1 = all_known_addresses[address1]
+        distances = {}
+        result[address1] = distances
+
+        for address2 in all_known_addresses:
+            lat_long_2 = all_known_addresses[address2]
+            distances[address2] = pythagorean_distance(lat_long_1,lat_long_2)
+    return result
+
+
+def pythagorean_distance(lat_long_1,lat_long_2):
+    """
+    This function computes a very crude distance approximation between
+    two latitude/longitude pairs. It takes the lat/long and computes the
+    pythagorean distance between those points, then multiplies that number
+    by 111.1, because that's the distance in km of 1 degree of latitude.
+
+    That is pretty bogus cartographically, but it's a reasonable approximation
+    of how far apart the two points are.
+
+    :param lat_long_1: a dictionary which maps "lat" and "lng" to a float value
+    :param lat_long_2: a dictionary which maps "lat" and "lng" to a float value
+    :return: the approximate distance (in km) between these two points on the earth.
+    """
+    lat_distance = abs(lat_long_2["lat"] - lat_long_1["lat"])
+    lng_distance = abs(lat_long_2["lng"] - lat_long_1["lng"])
+    dist_in_degrees = math.sqrt(lat_distance**2+lng_distance**2)
+    return dist_in_degrees * 111.1
+
+
+def write_distance_lookup(distance_lookup_rows: list[dict]) -> None:
+    print(f"writing {len(distance_lookup_rows)} distance mappings")
+    with open('distances.csv', 'w', encoding='utf-8-sig') as receipt_file:
+        field_names = ["Address1",
+                       "Address2",
+                       "kmApart"]
+        writer = csv.DictWriter(receipt_file, fieldnames=field_names)
+        writer.writeheader()
+        for lookup in distance_lookup_rows:
+            writer.writerow(lookup)
 
 
 def parse_date(date_str):
