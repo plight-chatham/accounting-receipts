@@ -161,3 +161,4 @@ cython_debug/
 /data/apikey.txt
 
 .idea/
+.DS_Store
