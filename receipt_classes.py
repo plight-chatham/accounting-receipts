@@ -50,6 +50,9 @@ class Vendor:
     def __cmp__(self, other) -> int:
         return self.address.__cmp__(other.address)
 
+    def __hash__(self):
+        return self.__str__().__hash__()
+
 
 class Receipt:
     def __init__(self,
