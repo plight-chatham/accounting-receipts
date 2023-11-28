@@ -1,3 +1,4 @@
+import datetime
 from distance_api import DistanceAPI
 from receipt_classes import Receipt, Project, Vendor
 import csv
@@ -45,9 +46,9 @@ def load_projects_from_csv() -> list[Project]:
             project = Project(row["Client"],
                               row["Project Name"],
                               row["Address"],
-                              row["Contract Date"],
-                              row["Work Start Date"],
-                              row["Work Completion Date"]
+                              datetime.datetime.strptime(row["Contract Date"],"%m/%d/%y"),
+                              datetime.datetime.strptime(row["Work Start Date"], "%m/%d/%y"),
+                              datetime.datetime.strptime(row["Work Completion Date"], "%m/%d/%y")
                               )
             projects.append(project)
     return projects
