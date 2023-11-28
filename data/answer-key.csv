@@ -1,0 +1,501 @@
+﻿Date,Supplier,Supplier Address,Amount,Client
+2022-01-22,Salik Hardware,"603 N Homewood Ave #7, Pittsburgh",257.01,Glen Murkowski
+2022-12-16,Cameo Woodcrafting,"226 Coxcomb Hill Rd, New Kensington",286.32,Beverly Miller
+2022-12-22,Harbor Freight Tools,"374 Mall Cir Dr, Monroeville",155.51,Beverly Miller
+2022-11-27,Daniels' Discount And Appliance Store,"4706 State Hwy 8, Allison Park",213.76,Beverly Miller
+2022-06-23,Vogt True Value Hardware,"1308 E Carson St, Pittsburgh",28.35,Rajeev Saraswati
+2022-03-10,Busy Beaver,"47th St, Pittsburgh",457.81,Glen Murkowski
+2022-04-02,Westmoreland Supply,"10739 Lincoln Hwy, Irwin",209.77,Teyana Briggs
+2022-11-20,Vogt True Value Hardware,"1308 E Carson St, Pittsburgh",6.87,Beverly Miller
+2022-05-01,The Home Depot,"3550 William Penn Hwy, Pittsburgh",265.02,Beverly Miller
+2022-01-18,HABITAT Hardware,"18 Neptune St, Pittsburgh",514.35,Glen Murkowski
+2022-09-01,Steel City Jambs Inc,"4166 Library Rd, Pittsburgh",759.71,Mark Prestenbak
+2021-12-15,Salik Hardware,"603 N Homewood Ave #7, Pittsburgh",307.14,Glen Murkowski
+2022-04-19,Lowe's Home Improvement,"2100 Washington Pike, Carnegie",491.96,Rajeev Saraswati
+2022-08-13,Steel City Jambs Inc,"4166 Library Rd, Pittsburgh",383.9,Mark Prestenbak
+2022-08-03,Keller Hardware Co,"900 Penn Ave, Turtle Creek",22.04,Mark Prestenbak
+2022-01-18,The Home Depot,"400 N Highland Ave, Pittsburgh",1111.9,Glen Murkowski
+2022-12-30,Jackson Hardware,"3364 Universal Rd, Penn Hills",763.79,Beverly Miller
+2022-05-10,Lowe's Home Improvement,"1025 Mountain View Dr, West Mifflin",771.27,Rajeev Saraswati
+2022-05-30,Keller Hardware Co,"900 Penn Ave, Turtle Creek",1271.0,Teyana Briggs
+2022-01-07,Ace Hardware,"666 Allegheny River Blvd Ste 100, Oakmont",688.06,Glen Murkowski
+2022-02-05,HABITAT Hardware,"18 Neptune St, Pittsburgh",970.64,Glen Murkowski
+2022-04-28,Harbor Freight Tools,"374 Mall Cir Dr, Monroeville",73.67,Teyana Briggs
+2022-08-28,Eastwood Hardware,"11681 Penn Hills Dr, Pittsburgh",1321.81,Mark Prestenbak
+2022-05-02,Master's Hardware,"7544 Roslyn St, Pittsburgh",1434.86,Teyana Briggs
+2022-08-10,Steel City Jambs Inc,"4166 Library Rd, Pittsburgh",488.23,Rajeev Saraswati
+2022-01-24,Salik Hardware,"603 N Homewood Ave #7, Pittsburgh",389.48,Teyana Briggs
+2022-06-02,Homecraft True Value Building Center,"3407 Library Rd, Pittsburgh",470.35,Rajeev Saraswati
+2022-09-05,Mueller's Hardware Inc.,"524-526 E Ohio St, Pittsburgh",59.62,Mark Prestenbak
+2022-01-25,HABITAT Hardware,"18 Neptune St, Pittsburgh",968.56,Glen Murkowski
+2022-09-30,Homecraft True Value Building Center,"3407 Library Rd, Pittsburgh",1107.32,Mark Prestenbak
+2022-10-17,HJDECORATION,"5815 Forbes Ave #2f, Pittsburgh",669.19,Beverly Miller
+2022-01-28,Builders' Hardware and Specialty Company,"1020 West Saw Mill Run Blvd, Pittsburgh",385.28,Rajeev Saraswati
+2022-04-25,Jackson Hardware,"3364 Universal Rd, Penn Hills",160.93,Teyana Briggs
+2021-12-30,Daniels' Discount And Appliance Store,"4706 State Hwy 8, Allison Park",1208.85,Glen Murkowski
+2022-09-01,Steel City Jambs Inc,"4166 Library Rd, Pittsburgh",128.93,Mark Prestenbak
+2022-07-03,Keener Hardware Inc,"3609 Brownsville Rd, Pittsburgh",359.27,Mark Prestenbak
+2021-12-31,IDN-Hardware Sales,"520 Broadway Ave, McKees Rocks",73.9,Glen Murkowski
+2022-04-10,Jackson Hardware,"3364 Universal Rd, Penn Hills",1562.88,Teyana Briggs
+2022-05-31,Vogt True Value Hardware,"1308 E Carson St, Pittsburgh",63.34,Rajeev Saraswati
+2021-12-19,Hastings Hardware,"1851 Babcock Blvd, Pittsburgh",260.01,Glen Murkowski
+2022-04-27,Homecraft True Value Building Center,"3407 Library Rd, Pittsburgh",1394.33,Rajeev Saraswati
+2022-07-29,Salik Hardware,"603 N Homewood Ave #7, Pittsburgh",1701.08,Mark Prestenbak
+2022-11-10,Schink's Hardware Inc,"515 Grant Ave, Duquesne",1030.44,Mark Prestenbak
+2021-12-26,Stanford Home Centers,"2001 PA-286, Pittsburgh",199.94,Teyana Briggs
+2022-05-23,HJDECORATION,"5815 Forbes Ave #2f, Pittsburgh",2706.35,Beverly Miller
+2022-02-12,Salik Hardware,"603 N Homewood Ave #7, Pittsburgh",66.73,Glen Murkowski
+2022-07-09,Busy Beaver Building Center #53,"88 W Steuben St, Pittsburgh",719.66,Rajeev Saraswati
+2022-10-30,Vogt True Value Hardware,"1308 E Carson St, Pittsburgh",32.61,Beverly Miller
+2022-12-08,Eastwood Hardware,"11681 Penn Hills Dr, Pittsburgh",180.94,Beverly Miller
+2022-02-28,Mueller's Hardware Inc.,"524-526 E Ohio St, Pittsburgh",532.77,Glen Murkowski
+2022-09-13,Lowe's Home Improvement,"690 E Waterfront Dr, Munhall",113.35,Mark Prestenbak
+2022-03-22,Lowe's Home Improvement,"4200 William Penn Hwy, Monroeville",2241.75,Teyana Briggs
+2022-07-14,The Home Depot,"400 N Highland Ave, Pittsburgh",1059.69,Beverly Miller
+2022-12-03,Harbor Freight Tools,"374 Mall Cir Dr, Monroeville",475.86,Beverly Miller
+2022-02-11,The Home Depot,"102 Aldi Dr, North Versailles",308.54,Teyana Briggs
+2022-05-27,Studer Industrial Tool Inc,"1320 Renton Rd, Pittsburgh",91.78,Teyana Briggs
+2022-06-04,Eastwood Hardware,"11681 Penn Hills Dr, Pittsburgh",927.89,Beverly Miller
+2022-06-09,Hastings Hardware,"1851 Babcock Blvd, Pittsburgh",266.43,Mark Prestenbak
+2022-09-18,Daniels' Discount And Appliance Store,"4706 State Hwy 8, Allison Park",1629.75,Beverly Miller
+2022-09-06,Harbor Freight Tools,"4780 McKnight Rd #200, Pittsburgh",97.74,Mark Prestenbak
+2022-02-07,Daniels' Discount And Appliance Store,"4706 State Hwy 8, Allison Park",962.3,Glen Murkowski
+2022-11-09,Master's Hardware,"7544 Roslyn St, Pittsburgh",454.1,Mark Prestenbak
+2022-08-27,Busy Beaver Building Center #29,"3130 William Pitt Way, Pittsburgh",18.91,Beverly Miller
+2021-12-11,The Home Depot,"112 Ben Avon Heights Rd, Pittsburgh",336.58,Glen Murkowski
+2022-08-11,Homecraft True Value Building Center,"3407 Library Rd, Pittsburgh",242.96,Mark Prestenbak
+2023-03-13,Vogt True Value Hardware,"1308 E Carson St, Pittsburgh",720.25,Beverly Miller
+2021-12-27,Shaler Ace Hardware,"1671 Butler Plank Rd, Glenshaw",426.91,Glen Murkowski
+2022-01-23,IDN-Hardware Sales,"520 Broadway Ave, McKees Rocks",317.02,Glen Murkowski
+2022-02-03,The Home Depot,"999 Ross Park Mall Dr, Pittsburgh",883.93,Glen Murkowski
+2022-04-17,Village True Value Hardware,"3913 Old William Penn Hwy, Murrysville",149.25,Teyana Briggs
+2022-04-01,Lowe's Home Improvement,"5775 Baptist Rd, Bethel Park",487.02,Rajeev Saraswati
+2022-01-26,Stanford Home Centers,"2001 PA-286, Pittsburgh",345.34,Teyana Briggs
+2022-03-19,Busy Beaver,"4743 Plummer St, Pittsburgh",720.6,Glen Murkowski
+2022-01-05,The Home Depot,"112 Ben Avon Heights Rd, Pittsburgh",343.06,Glen Murkowski
+2022-06-10,Evey True Value Hardware and Rental,"5779 Library Rd, Bethel Park",695.77,Rajeev Saraswati
+2022-09-22,Keener Hardware Inc,"3609 Brownsville Rd, Pittsburgh",1120.95,Mark Prestenbak
+2022-06-04,Vogt True Value Hardware,"1308 E Carson St, Pittsburgh",37.97,Rajeev Saraswati
+2022-03-24,Vogt True Value Hardware,"1308 E Carson St, Pittsburgh",674.22,Rajeev Saraswati
+2022-10-22,Jackson Hardware,"3364 Universal Rd, Penn Hills",282.63,Beverly Miller
+2022-08-06,Steel City Jambs Inc,"4166 Library Rd, Pittsburgh",724.26,Mark Prestenbak
+2022-09-22,Ace Hardware,"666 Allegheny River Blvd Ste 100, Oakmont",377.5,Mark Prestenbak
+2022-08-04,Lowe's Home Improvement,"1025 Mountain View Dr, West Mifflin",810.15,Rajeev Saraswati
+2022-06-23,Eastwood Hardware,"11681 Penn Hills Dr, Pittsburgh",1543.5,Beverly Miller
+2022-11-19,Lowe's Home Improvement,"1005 Village Center Dr, Tarentum",235.26,Beverly Miller
+2021-12-31,The Home Depot,"4960 William Flinn Hwy, Allison Park",43.46,Glen Murkowski
+2022-02-11,HABITAT Hardware,"18 Neptune St, Pittsburgh",270.47,Glen Murkowski
+2021-12-11,HJDECORATION,"5815 Forbes Ave #2f, Pittsburgh",740.68,Glen Murkowski
+2022-10-18,Salik Hardware,"603 N Homewood Ave #7, Pittsburgh",392.18,Mark Prestenbak
+2022-08-31,Vogt True Value Hardware,"1308 E Carson St, Pittsburgh",235.5,Mark Prestenbak
+2022-01-20,The Home Depot,"4960 William Flinn Hwy, Allison Park",368.56,Glen Murkowski
+2022-02-28,The Home Depot,"3550 William Penn Hwy, Pittsburgh",544.82,Teyana Briggs
+2022-09-19,Miller Ace Hardware,"237 Brownsville Rd, Pittsburgh",2701.46,Mark Prestenbak
+2022-09-14,Lowe's Home Improvement,"690 E Waterfront Dr, Munhall",2020.98,Mark Prestenbak
+2022-06-26,Busy Beaver,"2940 Library Rd, Pittsburgh",355.59,Rajeev Saraswati
+2022-09-10,Builders' Hardware and Specialty Company,"1020 West Saw Mill Run Blvd, Pittsburgh",11.48,Mark Prestenbak
+2022-04-06,Eastwood Hardware,"11681 Penn Hills Dr, Pittsburgh",145.47,Teyana Briggs
+2022-07-24,Lowe's Home Improvement,"5775 Baptist Rd, Bethel Park",284.18,Rajeev Saraswati
+2022-01-20,IDN-Hardware Sales,"520 Broadway Ave, McKees Rocks",92.98,Glen Murkowski
+2021-12-31,T & M Hardware & Rental,"509 Lincoln Ave, Bellevue",40.66,Glen Murkowski
+2022-05-11,Village True Value Hardware,"3913 Old William Penn Hwy, Murrysville",1107.34,Teyana Briggs
+2022-09-06,Busy Beaver,"2940 Library Rd, Pittsburgh",1028.45,Mark Prestenbak
+2022-04-18,Builders' Hardware and Specialty Company,"1020 West Saw Mill Run Blvd, Pittsburgh",346.43,Rajeev Saraswati
+2022-05-08,Mars Wholesale Supply,"1307 Walnut St, McKeesport",296.76,Teyana Briggs
+2021-12-24,Salik Hardware,"603 N Homewood Ave #7, Pittsburgh",155.95,Glen Murkowski
+2022-06-09,Westmoreland Supply,"10739 Lincoln Hwy, Irwin",1234.95,Teyana Briggs
+2022-07-12,Daniels' Discount And Appliance Store,"4706 State Hwy 8, Allison Park",783.48,Beverly Miller
+2022-02-05,The Home Depot,"112 Ben Avon Heights Rd, Pittsburgh",168.68,Glen Murkowski
+2022-06-11,Lowe's Home Improvement,"2100 Washington Pike, Carnegie",47.77,Rajeev Saraswati
+2022-06-10,Lowe's Home Improvement,"5775 Baptist Rd, Bethel Park",1021.34,Rajeev Saraswati
+2022-04-29,Evey True Value Hardware and Rental,"5779 Library Rd, Bethel Park",355.48,Rajeev Saraswati
+2022-08-08,Jackson Hardware,"3364 Universal Rd, Penn Hills",117.48,Beverly Miller
+2021-12-20,McIntryre Square Ace Hardware,"8080 McIntyre Square Dr, Pittsburgh",417.4,Glen Murkowski
+2022-08-02,Eastwood Hardware,"11681 Penn Hills Dr, Pittsburgh",158.48,Mark Prestenbak
+2022-08-17,Steel City Jambs Inc,"4166 Library Rd, Pittsburgh",371.65,Mark Prestenbak
+2022-01-29,Busy Beaver,"4743 Plummer St, Pittsburgh",68.65,Glen Murkowski
+2021-11-16,HABITAT Hardware,"18 Neptune St, Pittsburgh",251.18,Glen Murkowski
+2022-02-24,McIntryre Square Ace Hardware,"8080 McIntyre Square Dr, Pittsburgh",134.13,Glen Murkowski
+2022-08-25,Schink's Hardware Inc,"515 Grant Ave, Duquesne",719.17,Teyana Briggs
+2022-01-18,The Home Depot,"4960 William Flinn Hwy, Allison Park",530.97,Glen Murkowski
+2022-05-25,Village True Value Hardware,"3913 Old William Penn Hwy, Murrysville",1537.25,Teyana Briggs
+2022-01-16,Salik Hardware,"603 N Homewood Ave #7, Pittsburgh",19.17,Glen Murkowski
+2022-08-22,Hastings Hardware,"1851 Babcock Blvd, Pittsburgh",1400.26,Mark Prestenbak
+2022-06-02,The Home Depot,"3550 William Penn Hwy, Pittsburgh",645.33,Beverly Miller
+2022-07-31,Stone & Company Builders Supply,"10249 Garnet Ln, Irwin",857.5,Teyana Briggs
+2022-08-27,Homecraft True Value Building Center,"3407 Library Rd, Pittsburgh",508.74,Mark Prestenbak
+2022-05-29,Busy Beaver Building Center #53,"88 W Steuben St, Pittsburgh",152.72,Rajeev Saraswati
+2021-12-24,IDN-Hardware Sales,"520 Broadway Ave, McKees Rocks",179.57,Glen Murkowski
+2022-05-08,The Home Depot,"3550 William Penn Hwy, Pittsburgh",561.47,Teyana Briggs
+2022-05-09,Salik Hardware,"603 N Homewood Ave #7, Pittsburgh",268.72,Teyana Briggs
+2021-12-23,HABITAT Hardware,"18 Neptune St, Pittsburgh",778.01,Glen Murkowski
+2022-01-19,Daniels' Discount And Appliance Store,"4706 State Hwy 8, Allison Park",29.81,Glen Murkowski
+2022-07-30,Keener Hardware Inc,"3609 Brownsville Rd, Pittsburgh",273.67,Mark Prestenbak
+2022-03-05,Village True Value Hardware,"3913 Old William Penn Hwy, Murrysville",1602.75,Teyana Briggs
+2023-01-10,Eastwood Hardware,"11681 Penn Hills Dr, Pittsburgh",433.47,Beverly Miller
+2022-10-08,Shaler Ace Hardware,"1671 Butler Plank Rd, Glenshaw",1381.02,Beverly Miller
+2022-04-19,Builders' Hardware and Specialty Company,"1020 West Saw Mill Run Blvd, Pittsburgh",1157.05,Rajeev Saraswati
+2022-09-06,Master's Hardware,"7544 Roslyn St, Pittsburgh",87.73,Mark Prestenbak
+2022-03-17,Salik Hardware,"603 N Homewood Ave #7, Pittsburgh",588.05,Teyana Briggs
+2022-07-17,Hastings Hardware,"1851 Babcock Blvd, Pittsburgh",464.11,Mark Prestenbak
+2022-10-18,Harbor Freight Tools,"4780 McKnight Rd #200, Pittsburgh",107.72,Mark Prestenbak
+2022-08-03,Busy Beaver Building Center #53,"88 W Steuben St, Pittsburgh",548.31,Rajeev Saraswati
+2022-07-01,Master's Hardware,"7544 Roslyn St, Pittsburgh",1105.13,Teyana Briggs
+2022-04-08,Studer Industrial Tool Inc,"1320 Renton Rd, Pittsburgh",190.18,Teyana Briggs
+2022-07-27,Builders' Hardware and Specialty Company,"1020 West Saw Mill Run Blvd, Pittsburgh",285.27,Rajeev Saraswati
+2022-06-15,Lowe's Home Improvement,"2100 Washington Pike, Carnegie",2599.34,Rajeev Saraswati
+2022-03-21,Lowe's Home Improvement,"4200 William Penn Hwy, Monroeville",325.49,Teyana Briggs
+2022-02-04,McIntryre Square Ace Hardware,"8080 McIntyre Square Dr, Pittsburgh",499.88,Glen Murkowski
+2022-01-06,Busy Beaver,"4743 Plummer St, Pittsburgh",868.82,Glen Murkowski
+2022-05-03,Eastwood Hardware,"11681 Penn Hills Dr, Pittsburgh",721.03,Teyana Briggs
+2022-08-06,Keener Hardware Inc,"3609 Brownsville Rd, Pittsburgh",114.13,Mark Prestenbak
+2022-08-31,Master's Hardware,"7544 Roslyn St, Pittsburgh",1596.88,Mark Prestenbak
+2022-07-03,Lowe's Home Improvement,"690 E Waterfront Dr, Munhall",189.01,Teyana Briggs
+2022-02-18,T & M Hardware & Rental,"509 Lincoln Ave, Bellevue",270.49,Glen Murkowski
+2022-08-27,Vogt True Value Hardware,"1308 E Carson St, Pittsburgh",491.0,Beverly Miller
+2022-05-31,Master's Hardware,"7544 Roslyn St, Pittsburgh",1070.92,Teyana Briggs
+2022-07-06,Master's Hardware,"7544 Roslyn St, Pittsburgh",44.49,Beverly Miller
+2022-07-11,Master's Hardware,"7544 Roslyn St, Pittsburgh",289.73,Mark Prestenbak
+2022-06-10,Shaler Ace Hardware,"1671 Butler Plank Rd, Glenshaw",851.31,Beverly Miller
+2022-09-10,The Home Depot,"400 N Highland Ave, Pittsburgh",742.53,Beverly Miller
+2022-06-28,Lowe's Home Improvement,"5775 Baptist Rd, Bethel Park",1222.9,Rajeev Saraswati
+2022-07-09,Homecraft True Value Building Center,"3407 Library Rd, Pittsburgh",139.32,Mark Prestenbak
+2022-08-10,Vogt True Value Hardware,"1308 E Carson St, Pittsburgh",480.74,Rajeev Saraswati
+2022-12-16,Vogt True Value Hardware,"1308 E Carson St, Pittsburgh",94.99,Beverly Miller
+2022-05-31,Mueller's Hardware Inc.,"524-526 E Ohio St, Pittsburgh",134.83,Mark Prestenbak
+2022-04-24,Westmoreland Supply,"10739 Lincoln Hwy, Irwin",826.33,Teyana Briggs
+2022-07-12,Busy Beaver Building Center #53,"88 W Steuben St, Pittsburgh",201.72,Rajeev Saraswati
+2022-07-07,Steel City Jambs Inc,"4166 Library Rd, Pittsburgh",289.47,Rajeev Saraswati
+2022-11-23,Eastwood Hardware,"11681 Penn Hills Dr, Pittsburgh",1838.77,Beverly Miller
+2022-06-08,Rollier Hardware Inc,"600 Washington Rd, Mt Lebanon",614.93,Rajeev Saraswati
+2022-05-09,Homecraft True Value Building Center,"3407 Library Rd, Pittsburgh",137.29,Rajeev Saraswati
+2021-12-25,IDN-Hardware Sales,"520 Broadway Ave, McKees Rocks",620.33,Glen Murkowski
+2022-08-29,Daniels' Discount And Appliance Store,"4706 State Hwy 8, Allison Park",92.38,Beverly Miller
+2022-08-13,HABITAT Hardware,"18 Neptune St, Pittsburgh",225.96,Mark Prestenbak
+2022-02-05,The Home Depot,"999 Ross Park Mall Dr, Pittsburgh",190.5,Glen Murkowski
+2022-10-28,Miller Ace Hardware,"237 Brownsville Rd, Pittsburgh",1215.4,Mark Prestenbak
+2022-04-22,Mars Wholesale Supply,"1307 Walnut St, McKeesport",1059.43,Teyana Briggs
+2022-06-11,Keener Hardware Inc,"3609 Brownsville Rd, Pittsburgh",1015.24,Mark Prestenbak
+2022-10-22,Jackson Hardware,"3364 Universal Rd, Penn Hills",1364.57,Beverly Miller
+2022-01-05,HJDECORATION,"5815 Forbes Ave #2f, Pittsburgh",4.56,Glen Murkowski
+2022-01-23,Harbor Freight Tools,"4780 McKnight Rd #200, Pittsburgh",609.8,Glen Murkowski
+2022-10-10,Miller Ace Hardware,"237 Brownsville Rd, Pittsburgh",348.78,Mark Prestenbak
+2022-08-13,Eastwood Hardware,"11681 Penn Hills Dr, Pittsburgh",117.02,Beverly Miller
+2022-05-27,Salik Hardware,"603 N Homewood Ave #7, Pittsburgh",370.59,Teyana Briggs
+2022-05-12,Master's Hardware,"7544 Roslyn St, Pittsburgh",1792.59,Rajeev Saraswati
+2022-07-24,Lowe's Home Improvement,"690 E Waterfront Dr, Munhall",76.91,Rajeev Saraswati
+2022-10-23,Lowe's Home Improvement,"1005 Village Center Dr, Tarentum",478.18,Beverly Miller
+2022-07-09,Miller Ace Hardware,"237 Brownsville Rd, Pittsburgh",20.92,Mark Prestenbak
+2022-12-14,Harbor Freight Tools,"4780 McKnight Rd #200, Pittsburgh",1292.81,Beverly Miller
+2023-03-13,Jackson Hardware,"3364 Universal Rd, Penn Hills",819.03,Beverly Miller
+2022-08-11,Vogt True Value Hardware,"1308 E Carson St, Pittsburgh",50.81,Rajeev Saraswati
+2022-02-18,IDN-Hardware Sales,"520 Broadway Ave, McKees Rocks",652.95,Glen Murkowski
+2022-01-06,Salik Hardware,"603 N Homewood Ave #7, Pittsburgh",762.25,Glen Murkowski
+2022-08-12,The Home Depot,"400 N Highland Ave, Pittsburgh",850.06,Mark Prestenbak
+2022-06-24,HABITAT Hardware,"18 Neptune St, Pittsburgh",2062.75,Mark Prestenbak
+2022-01-05,Busy Beaver,"4743 Plummer St, Pittsburgh",83.63,Glen Murkowski
+2022-07-09,Master's Hardware,"7544 Roslyn St, Pittsburgh",3103.41,Teyana Briggs
+2022-04-03,Lowe's Home Improvement,"2100 Washington Pike, Carnegie",1163.66,Rajeev Saraswati
+2022-06-23,Harbor Freight Tools,"374 Mall Cir Dr, Monroeville",225.88,Teyana Briggs
+2022-09-12,Steel City Jambs Inc,"4166 Library Rd, Pittsburgh",763.62,Mark Prestenbak
+2022-05-01,Homecraft True Value Building Center,"3407 Library Rd, Pittsburgh",788.28,Rajeev Saraswati
+2022-12-23,Mueller's Hardware Inc.,"524-526 E Ohio St, Pittsburgh",297.21,Beverly Miller
+2023-03-01,Busy Beaver Building Center #29,"3130 William Pitt Way, Pittsburgh",163.07,Beverly Miller
+2022-05-31,Master's Hardware,"7544 Roslyn St, Pittsburgh",743.05,Rajeev Saraswati
+2022-03-03,Lowe's Home Improvement,"690 E Waterfront Dr, Munhall",708.83,Rajeev Saraswati
+2022-09-05,Builders' Hardware and Specialty Company,"1020 West Saw Mill Run Blvd, Pittsburgh",1137.7,Mark Prestenbak
+2022-05-02,Studer Industrial Tool Inc,"1320 Renton Rd, Pittsburgh",255.95,Teyana Briggs
+2022-09-29,HABITAT Hardware,"18 Neptune St, Pittsburgh",468.79,Mark Prestenbak
+2022-02-03,The Home Depot,"400 N Highland Ave, Pittsburgh",2255.11,Glen Murkowski
+2022-02-06,Lowe's Home Improvement,"9051 St Simon Way, Pittsburgh",1913.37,Glen Murkowski
+2022-03-30,The Home Depot,"4000 Oxford Dr, Bethel Park",788.68,Rajeev Saraswati
+2022-04-18,Busy Beaver,"2001 Lincoln Way STE 1, White Oak",463.62,Teyana Briggs
+2022-10-24,Miller Ace Hardware,"237 Brownsville Rd, Pittsburgh",1035.18,Mark Prestenbak
+2022-08-31,Keller Hardware Co,"900 Penn Ave, Turtle Creek",147.11,Mark Prestenbak
+2022-08-25,Master's Hardware,"7544 Roslyn St, Pittsburgh",1318.15,Mark Prestenbak
+2022-09-17,Busy Beaver,"2940 Library Rd, Pittsburgh",2258.23,Mark Prestenbak
+2022-06-18,Ace Hardware,"666 Allegheny River Blvd Ste 100, Oakmont",211.61,Mark Prestenbak
+2022-03-25,Stone & Company Builders Supply,"10249 Garnet Ln, Irwin",265.95,Teyana Briggs
+2022-04-12,Studer Industrial Tool Inc,"1320 Renton Rd, Pittsburgh",372.46,Teyana Briggs
+2022-01-30,Shaler Ace Hardware,"1671 Butler Plank Rd, Glenshaw",266.42,Glen Murkowski
+2022-05-23,Builders' Hardware and Specialty Company,"1020 West Saw Mill Run Blvd, Pittsburgh",59.5,Mark Prestenbak
+2022-05-06,Lowe's Home Improvement,"4200 William Penn Hwy, Monroeville",200.58,Teyana Briggs
+2022-10-02,Daniels' Discount And Appliance Store,"4706 State Hwy 8, Allison Park",1139.36,Beverly Miller
+2022-09-10,Keller Hardware Co,"900 Penn Ave, Turtle Creek",445.53,Mark Prestenbak
+2022-07-23,Jackson Hardware,"3364 Universal Rd, Penn Hills",711.47,Teyana Briggs
+2022-01-09,Busy Beaver Building Center #53,"88 W Steuben St, Pittsburgh",626.43,Glen Murkowski
+2022-02-16,Westmoreland Supply,"10739 Lincoln Hwy, Irwin",19.1,Teyana Briggs
+2022-02-08,The Home Depot,"112 Ben Avon Heights Rd, Pittsburgh",451.45,Glen Murkowski
+2023-02-09,HJDECORATION,"5815 Forbes Ave #2f, Pittsburgh",67.74,Beverly Miller
+2022-02-06,Lowe's Home Improvement,"9051 St Simon Way, Pittsburgh",408.34,Glen Murkowski
+2021-11-30,Ace Hardware,"666 Allegheny River Blvd Ste 100, Oakmont",237.21,Glen Murkowski
+2021-12-18,Shaler Ace Hardware,"1671 Butler Plank Rd, Glenshaw",508.27,Glen Murkowski
+2022-10-23,Harbor Freight Tools,"4780 McKnight Rd #200, Pittsburgh",313.43,Mark Prestenbak
+2022-03-08,Studer Industrial Tool Inc,"1320 Renton Rd, Pittsburgh",418.63,Teyana Briggs
+2022-05-27,Lowe's Home Improvement,"5775 Baptist Rd, Bethel Park",878.51,Rajeev Saraswati
+2022-04-17,Schink's Hardware Inc,"515 Grant Ave, Duquesne",1579.14,Teyana Briggs
+2022-05-15,Jackson Hardware,"3364 Universal Rd, Penn Hills",277.29,Teyana Briggs
+2022-04-13,The Home Depot,"102 Aldi Dr, North Versailles",666.52,Teyana Briggs
+2022-08-28,Busy Beaver,"4743 Plummer St, Pittsburgh",193.52,Beverly Miller
+2022-05-20,HABITAT Hardware,"18 Neptune St, Pittsburgh",2442.46,Rajeev Saraswati
+2022-07-18,Vogt True Value Hardware,"1308 E Carson St, Pittsburgh",246.08,Rajeev Saraswati
+2022-05-19,The Home Depot,"4000 Oxford Dr, Bethel Park",805.63,Rajeev Saraswati
+2022-09-12,Keener Hardware Inc,"3609 Brownsville Rd, Pittsburgh",522.01,Mark Prestenbak
+2022-07-09,Miller Ace Hardware,"237 Brownsville Rd, Pittsburgh",1621.89,Mark Prestenbak
+2022-01-22,Harbor Freight Tools,"4780 McKnight Rd #200, Pittsburgh",2049.18,Glen Murkowski
+2022-08-06,Mueller's Hardware Inc.,"524-526 E Ohio St, Pittsburgh",1686.26,Beverly Miller
+2022-06-07,Lowe's Home Improvement,"5775 Baptist Rd, Bethel Park",123.95,Rajeev Saraswati
+2022-05-11,The Home Depot,"102 Aldi Dr, North Versailles",951.49,Teyana Briggs
+2022-07-12,Lowe's Home Improvement,"690 E Waterfront Dr, Munhall",963.25,Rajeev Saraswati
+2022-10-21,Miller Ace Hardware,"237 Brownsville Rd, Pittsburgh",982.36,Mark Prestenbak
+2022-06-10,Busy Beaver Building Center #53,"88 W Steuben St, Pittsburgh",61.13,Rajeev Saraswati
+2022-02-11,Busy Beaver,"47th St, Pittsburgh",398.15,Glen Murkowski
+2022-09-02,The Home Depot,"9971 Mountain View Dr, West Mifflin",77.87,Rajeev Saraswati
+2022-10-07,The Home Depot,"3550 William Penn Hwy, Pittsburgh",260.09,Beverly Miller
+2022-05-24,Harbor Freight Tools,"639 Clairton Blvd, Pleasant Hills",249.53,Rajeev Saraswati
+2022-06-11,HABITAT Hardware,"18 Neptune St, Pittsburgh",719.38,Rajeev Saraswati
+2022-03-06,Keener Hardware Inc,"3609 Brownsville Rd, Pittsburgh",480.1,Rajeev Saraswati
+2022-09-11,Lowe's Home Improvement,"2100 Washington Pike, Carnegie",31.86,Rajeev Saraswati
+2022-07-09,Hastings Hardware,"1851 Babcock Blvd, Pittsburgh",226.51,Mark Prestenbak
+2022-03-25,Busy Beaver Building Center #53,"88 W Steuben St, Pittsburgh",1160.03,Rajeev Saraswati
+2022-04-21,Steel City Jambs Inc,"4166 Library Rd, Pittsburgh",465.13,Rajeev Saraswati
+2021-11-23,The Home Depot,"112 Ben Avon Heights Rd, Pittsburgh",515.95,Glen Murkowski
+2022-06-21,Busy Beaver Building Center #53,"88 W Steuben St, Pittsburgh",312.76,Rajeev Saraswati
+2022-04-20,Lowe's Home Improvement,"2100 Washington Pike, Carnegie",342.68,Rajeev Saraswati
+2022-04-15,Salik Hardware,"603 N Homewood Ave #7, Pittsburgh",156.81,Teyana Briggs
+2022-07-07,Miller Ace Hardware,"237 Brownsville Rd, Pittsburgh",650.31,Mark Prestenbak
+2022-08-10,Steel City Jambs Inc,"4166 Library Rd, Pittsburgh",1939.0,Rajeev Saraswati
+2021-12-29,Busy Beaver,"4743 Plummer St, Pittsburgh",107.12,Glen Murkowski
+2022-02-06,HABITAT Hardware,"18 Neptune St, Pittsburgh",734.74,Glen Murkowski
+2022-05-04,Ace Hardware,"1079 Greentree Rd, Pittsburgh",821.2,Rajeev Saraswati
+2022-06-25,Steel City Jambs Inc,"4166 Library Rd, Pittsburgh",828.31,Mark Prestenbak
+2022-07-13,Harbor Freight Tools,"4780 McKnight Rd #200, Pittsburgh",2730.52,Beverly Miller
+2022-05-30,Jackson Hardware,"3364 Universal Rd, Penn Hills",1027.25,Teyana Briggs
+2022-06-17,Busy Beaver,"2940 Library Rd, Pittsburgh",1981.81,Rajeev Saraswati
+2022-12-06,Jackson Hardware,"3364 Universal Rd, Penn Hills",1174.57,Beverly Miller
+2022-01-15,Busy Beaver Building Center #53,"88 W Steuben St, Pittsburgh",263.4,Glen Murkowski
+2022-06-09,Lowe's Home Improvement,"1005 Village Center Dr, Tarentum",416.63,Beverly Miller
+2022-11-23,Harbor Freight Tools,"4780 McKnight Rd #200, Pittsburgh",329.9,Mark Prestenbak
+2022-06-22,Busy Beaver,"2940 Library Rd, Pittsburgh",787.79,Rajeev Saraswati
+2022-09-17,Eastwood Hardware,"11681 Penn Hills Dr, Pittsburgh",1706.57,Mark Prestenbak
+2022-11-07,Eastwood Hardware,"11681 Penn Hills Dr, Pittsburgh",10.71,Mark Prestenbak
+2022-05-23,Harbor Freight Tools,"639 Clairton Blvd, Pleasant Hills",1377.19,Rajeev Saraswati
+2022-01-20,McIntryre Square Ace Hardware,"8080 McIntyre Square Dr, Pittsburgh",438.34,Glen Murkowski
+2022-01-09,Hastings Hardware,"1851 Babcock Blvd, Pittsburgh",160.05,Glen Murkowski
+2022-10-13,Harbor Freight Tools,"374 Mall Cir Dr, Monroeville",30.75,Beverly Miller
+2022-02-05,The Home Depot,"102 Aldi Dr, North Versailles",1430.39,Teyana Briggs
+2022-05-18,Studer Industrial Tool Inc,"1320 Renton Rd, Pittsburgh",1027.19,Teyana Briggs
+2022-02-07,McIntryre Square Ace Hardware,"8080 McIntyre Square Dr, Pittsburgh",920.82,Glen Murkowski
+2022-03-28,Jackson Hardware,"3364 Universal Rd, Penn Hills",11.79,Teyana Briggs
+2022-07-02,Busy Beaver Building Center #53,"88 W Steuben St, Pittsburgh",117.18,Rajeev Saraswati
+2022-09-02,HABITAT Hardware,"18 Neptune St, Pittsburgh",1204.03,Mark Prestenbak
+2022-09-19,Keener Hardware Inc,"3609 Brownsville Rd, Pittsburgh",928.78,Mark Prestenbak
+2022-03-27,Busy Beaver Building Center #53,"88 W Steuben St, Pittsburgh",325.64,Rajeev Saraswati
+2022-08-30,Lowe's Home Improvement,"1005 Village Center Dr, Tarentum",193.58,Beverly Miller
+2022-09-11,Hastings Hardware,"1851 Babcock Blvd, Pittsburgh",35.66,Mark Prestenbak
+2022-03-31,Busy Beaver,"2940 Library Rd, Pittsburgh",542.67,Rajeev Saraswati
+2022-06-14,Master's Hardware,"7544 Roslyn St, Pittsburgh",4.46,Teyana Briggs
+2022-08-08,The Home Depot,"400 N Highland Ave, Pittsburgh",342.11,Mark Prestenbak
+2022-11-09,Keener Hardware Inc,"3609 Brownsville Rd, Pittsburgh",272.59,Mark Prestenbak
+2022-12-11,Harbor Freight Tools,"374 Mall Cir Dr, Monroeville",1364.16,Beverly Miller
+2022-04-09,Jackson Hardware,"3364 Universal Rd, Penn Hills",45.95,Teyana Briggs
+2022-07-11,Stone & Company Builders Supply,"10249 Garnet Ln, Irwin",67.47,Teyana Briggs
+2021-11-29,Hastings Hardware,"1851 Babcock Blvd, Pittsburgh",35.53,Glen Murkowski
+2022-03-14,Mueller's Hardware Inc.,"524-526 E Ohio St, Pittsburgh",668.99,Glen Murkowski
+2023-01-24,Lowe's Home Improvement,"1005 Village Center Dr, Tarentum",2966.19,Beverly Miller
+2022-05-20,Stone & Company Builders Supply,"10249 Garnet Ln, Irwin",639.02,Teyana Briggs
+2022-06-22,Vogt True Value Hardware,"1308 E Carson St, Pittsburgh",43.91,Mark Prestenbak
+2022-07-21,Harbor Freight Tools,"4780 McKnight Rd #200, Pittsburgh",416.67,Mark Prestenbak
+2022-03-30,Homecraft True Value Building Center,"3407 Library Rd, Pittsburgh",313.87,Rajeev Saraswati
+2022-01-28,Lowe's Home Improvement,"4200 William Penn Hwy, Monroeville",1429.24,Teyana Briggs
+2022-02-13,Lowe's Home Improvement,"9051 St Simon Way, Pittsburgh",414.07,Glen Murkowski
+2022-08-31,Vogt True Value Hardware,"1308 E Carson St, Pittsburgh",9.98,Beverly Miller
+2022-03-23,Westmoreland Supply,"10739 Lincoln Hwy, Irwin",56.82,Teyana Briggs
+2021-12-18,Busy Beaver,"47th St, Pittsburgh",153.88,Glen Murkowski
+2022-06-08,Stone & Company Builders Supply,"10249 Garnet Ln, Irwin",86.28,Teyana Briggs
+2022-01-21,The Home Depot,"4960 William Flinn Hwy, Allison Park",120.18,Glen Murkowski
+2022-08-29,Cameo Woodcrafting,"226 Coxcomb Hill Rd, New Kensington",225.0,Beverly Miller
+2022-07-27,Harbor Freight Tools,"4780 McKnight Rd #200, Pittsburgh",1855.36,Mark Prestenbak
+2022-06-04,Salik Hardware,"603 N Homewood Ave #7, Pittsburgh",450.78,Beverly Miller
+2023-01-24,The Home Depot,"400 N Highland Ave, Pittsburgh",47.25,Beverly Miller
+2022-07-09,Lowe's Home Improvement,"1005 Village Center Dr, Tarentum",766.82,Beverly Miller
+2022-07-09,Evey True Value Hardware and Rental,"5779 Library Rd, Bethel Park",657.62,Rajeev Saraswati
+2022-06-24,Lowe's Home Improvement,"1025 Mountain View Dr, West Mifflin",706.3,Rajeev Saraswati
+2022-03-17,Lowe's Home Improvement,"1025 Mountain View Dr, West Mifflin",267.18,Rajeev Saraswati
+2022-01-02,Harbor Freight Tools,"4780 McKnight Rd #200, Pittsburgh",125.43,Glen Murkowski
+2022-02-28,Salik Hardware,"603 N Homewood Ave #7, Pittsburgh",127.07,Teyana Briggs
+2022-01-29,Hastings Hardware,"1851 Babcock Blvd, Pittsburgh",2678.27,Glen Murkowski
+2022-06-19,Harbor Freight Tools,"4780 McKnight Rd #200, Pittsburgh",1199.83,Beverly Miller
+2022-07-19,Harbor Freight Tools,"4780 McKnight Rd #200, Pittsburgh",1010.1,Mark Prestenbak
+2023-01-21,Salik Hardware,"603 N Homewood Ave #7, Pittsburgh",127.99,Beverly Miller
+2021-12-30,Stone & Company Builders Supply,"10249 Garnet Ln, Irwin",130.36,Teyana Briggs
+2022-11-08,Harbor Freight Tools,"4780 McKnight Rd #200, Pittsburgh",668.97,Beverly Miller
+2022-04-21,Harbor Freight Tools,"639 Clairton Blvd, Pleasant Hills",255.56,Rajeev Saraswati
+2022-03-13,Homecraft True Value Building Center,"3407 Library Rd, Pittsburgh",457.9,Rajeev Saraswati
+2022-01-14,Lowe's Home Improvement,"690 E Waterfront Dr, Munhall",1060.51,Rajeev Saraswati
+2022-01-11,Shaler Ace Hardware,"1671 Butler Plank Rd, Glenshaw",90.85,Glen Murkowski
+2021-12-05,Ace Hardware,"666 Allegheny River Blvd Ste 100, Oakmont",40.6,Glen Murkowski
+2022-08-25,The Home Depot,"102 Aldi Dr, North Versailles",1221.45,Teyana Briggs
+2022-08-16,The Home Depot,"3550 William Penn Hwy, Pittsburgh",455.65,Teyana Briggs
+2022-08-14,Hastings Hardware,"1851 Babcock Blvd, Pittsburgh",356.59,Mark Prestenbak
+2022-06-24,Rollier Hardware Inc,"600 Washington Rd, Mt Lebanon",87.66,Rajeev Saraswati
+2022-03-06,Stone & Company Builders Supply,"10249 Garnet Ln, Irwin",2109.39,Teyana Briggs
+2022-04-09,Master's Hardware,"7544 Roslyn St, Pittsburgh",66.79,Rajeev Saraswati
+2022-05-04,Stanford Home Centers,"2001 PA-286, Pittsburgh",98.39,Teyana Briggs
+2022-07-18,HJDECORATION,"5815 Forbes Ave #2f, Pittsburgh",743.22,Beverly Miller
+2022-05-27,Builders' Hardware and Specialty Company,"1020 West Saw Mill Run Blvd, Pittsburgh",1479.57,Mark Prestenbak
+2022-02-15,Homecraft True Value Building Center,"3407 Library Rd, Pittsburgh",496.09,Rajeev Saraswati
+2022-11-27,Vogt True Value Hardware,"1308 E Carson St, Pittsburgh",796.92,Beverly Miller
+2022-02-15,Mueller's Hardware Inc.,"524-526 E Ohio St, Pittsburgh",933.34,Glen Murkowski
+2022-04-07,Jackson Hardware,"3364 Universal Rd, Penn Hills",2380.02,Teyana Briggs
+2022-09-06,Busy Beaver Building Center #29,"3130 William Pitt Way, Pittsburgh",436.67,Beverly Miller
+2021-12-07,The Home Depot,"4960 William Flinn Hwy, Allison Park",183.94,Glen Murkowski
+2022-09-05,Ace Hardware,"666 Allegheny River Blvd Ste 100, Oakmont",573.64,Mark Prestenbak
+2022-07-08,Lowe's Home Improvement,"690 E Waterfront Dr, Munhall",73.41,Rajeev Saraswati
+2022-04-26,Evey True Value Hardware and Rental,"5779 Library Rd, Bethel Park",53.51,Rajeev Saraswati
+2022-07-23,Ace Hardware,"666 Allegheny River Blvd Ste 100, Oakmont",314.09,Mark Prestenbak
+2022-05-29,Miller Ace Hardware,"237 Brownsville Rd, Pittsburgh",273.99,Mark Prestenbak
+2021-12-17,Mueller's Hardware Inc.,"524-526 E Ohio St, Pittsburgh",1924.94,Glen Murkowski
+2021-12-19,T & M Hardware & Rental,"509 Lincoln Ave, Bellevue",683.76,Glen Murkowski
+2022-12-05,Jackson Hardware,"3364 Universal Rd, Penn Hills",526.83,Beverly Miller
+2022-06-18,Ace Hardware,"666 Allegheny River Blvd Ste 100, Oakmont",204.97,Mark Prestenbak
+2022-11-18,Vogt True Value Hardware,"1308 E Carson St, Pittsburgh",931.39,Beverly Miller
+2022-09-19,Eastwood Hardware,"11681 Penn Hills Dr, Pittsburgh",375.65,Mark Prestenbak
+2022-01-10,Ace Hardware,"666 Allegheny River Blvd Ste 100, Oakmont",353.75,Glen Murkowski
+2022-10-14,Schink's Hardware Inc,"515 Grant Ave, Duquesne",673.35,Mark Prestenbak
+2022-02-07,The Home Depot,"400 N Highland Ave, Pittsburgh",445.87,Glen Murkowski
+2022-09-19,Master's Hardware,"7544 Roslyn St, Pittsburgh",312.06,Beverly Miller
+2022-01-08,The Home Depot,"4960 William Flinn Hwy, Allison Park",505.38,Glen Murkowski
+2022-09-23,Lowe's Home Improvement,"1005 Village Center Dr, Tarentum",84.28,Beverly Miller
+2022-03-01,Stanford Home Centers,"2001 PA-286, Pittsburgh",47.29,Teyana Briggs
+2022-06-01,Master's Hardware,"7544 Roslyn St, Pittsburgh",28.68,Teyana Briggs
+2022-07-15,Steel City Jambs Inc,"4166 Library Rd, Pittsburgh",736.89,Mark Prestenbak
+2022-01-08,HABITAT Hardware,"18 Neptune St, Pittsburgh",144.73,Glen Murkowski
+2022-01-23,McIntryre Square Ace Hardware,"8080 McIntyre Square Dr, Pittsburgh",765.54,Glen Murkowski
+2022-06-11,Master's Hardware,"7544 Roslyn St, Pittsburgh",1112.06,Rajeev Saraswati
+2022-04-30,Master's Hardware,"7544 Roslyn St, Pittsburgh",96.05,Rajeev Saraswati
+2022-06-09,Jackson Hardware,"3364 Universal Rd, Penn Hills",202.14,Teyana Briggs
+2022-07-31,Jackson Hardware,"3364 Universal Rd, Penn Hills",539.59,Beverly Miller
+2022-11-09,Lowe's Home Improvement,"1005 Village Center Dr, Tarentum",543.01,Beverly Miller
+2022-04-24,Schink's Hardware Inc,"515 Grant Ave, Duquesne",74.79,Teyana Briggs
+2022-08-19,Salik Hardware,"603 N Homewood Ave #7, Pittsburgh",95.61,Mark Prestenbak
+2022-01-18,Busy Beaver,"4743 Plummer St, Pittsburgh",300.93,Glen Murkowski
+2022-06-21,Studer Industrial Tool Inc,"1320 Renton Rd, Pittsburgh",1098.71,Teyana Briggs
+2022-02-04,Rollier Hardware Inc,"600 Washington Rd, Mt Lebanon",1569.59,Rajeev Saraswati
+2022-02-10,HJDECORATION,"5815 Forbes Ave #2f, Pittsburgh",75.95,Glen Murkowski
+2022-06-24,Busy Beaver Building Center #29,"3130 William Pitt Way, Pittsburgh",204.37,Beverly Miller
+2022-06-05,Miller Ace Hardware,"237 Brownsville Rd, Pittsburgh",655.61,Rajeev Saraswati
+2022-03-23,The Home Depot,"9971 Mountain View Dr, West Mifflin",2026.71,Rajeev Saraswati
+2022-08-09,Homecraft True Value Building Center,"3407 Library Rd, Pittsburgh",1559.08,Rajeev Saraswati
+2022-04-08,Jackson Hardware,"3364 Universal Rd, Penn Hills",550.28,Teyana Briggs
+2022-11-01,Master's Hardware,"7544 Roslyn St, Pittsburgh",3731.22,Mark Prestenbak
+2022-03-30,Shaler Ace Hardware,"1671 Butler Plank Rd, Glenshaw",851.97,Beverly Miller
+2022-01-18,Salik Hardware,"603 N Homewood Ave #7, Pittsburgh",1104.28,Glen Murkowski
+2022-06-05,Salik Hardware,"603 N Homewood Ave #7, Pittsburgh",2094.02,Mark Prestenbak
+2022-07-29,Mueller's Hardware Inc.,"524-526 E Ohio St, Pittsburgh",286.11,Mark Prestenbak
+2022-05-24,Lowe's Home Improvement,"4200 William Penn Hwy, Monroeville",440.71,Teyana Briggs
+2022-03-17,Mars Wholesale Supply,"1307 Walnut St, McKeesport",479.04,Teyana Briggs
+2022-03-18,Keller Hardware Co,"900 Penn Ave, Turtle Creek",277.45,Teyana Briggs
+2022-06-29,Builders' Hardware and Specialty Company,"1020 West Saw Mill Run Blvd, Pittsburgh",881.51,Rajeev Saraswati
+2022-05-27,Homecraft True Value Building Center,"3407 Library Rd, Pittsburgh",78.01,Rajeev Saraswati
+2022-04-27,Builders' Hardware and Specialty Company,"1020 West Saw Mill Run Blvd, Pittsburgh",397.04,Rajeev Saraswati
+2022-01-04,The Home Depot,"4960 William Flinn Hwy, Allison Park",1138.99,Glen Murkowski
+2022-11-05,Jackson Hardware,"3364 Universal Rd, Penn Hills",1537.78,Beverly Miller
+2022-05-29,Rollier Hardware Inc,"600 Washington Rd, Mt Lebanon",1120.08,Rajeev Saraswati
+2021-12-26,Busy Beaver Building Center #53,"88 W Steuben St, Pittsburgh",83.34,Glen Murkowski
+2022-01-11,Lowe's Home Improvement,"9051 St Simon Way, Pittsburgh",293.98,Glen Murkowski
+2023-01-17,Lowe's Home Improvement,"1005 Village Center Dr, Tarentum",468.78,Beverly Miller
+2022-10-17,Busy Beaver Building Center #29,"3130 William Pitt Way, Pittsburgh",583.83,Beverly Miller
+2022-11-17,Vogt True Value Hardware,"1308 E Carson St, Pittsburgh",30.29,Mark Prestenbak
+2022-02-06,HABITAT Hardware,"18 Neptune St, Pittsburgh",117.16,Glen Murkowski
+2022-10-10,Salik Hardware,"603 N Homewood Ave #7, Pittsburgh",138.99,Mark Prestenbak
+2022-05-13,Steel City Jambs Inc,"4166 Library Rd, Pittsburgh",54.53,Rajeev Saraswati
+2022-07-17,Busy Beaver Building Center #53,"88 W Steuben St, Pittsburgh",19.89,Rajeev Saraswati
+2022-04-02,Jackson Hardware,"3364 Universal Rd, Penn Hills",210.63,Teyana Briggs
+2022-04-20,Homecraft True Value Building Center,"3407 Library Rd, Pittsburgh",883.92,Rajeev Saraswati
+2022-06-23,Busy Beaver,"2001 Lincoln Way STE 1, White Oak",316.17,Teyana Briggs
+2022-08-23,Salik Hardware,"603 N Homewood Ave #7, Pittsburgh",160.2,Beverly Miller
+2022-08-24,Salik Hardware,"603 N Homewood Ave #7, Pittsburgh",463.02,Mark Prestenbak
+2022-09-22,Hastings Hardware,"1851 Babcock Blvd, Pittsburgh",1046.61,Beverly Miller
+2022-08-24,The Home Depot,"400 N Highland Ave, Pittsburgh",1467.65,Mark Prestenbak
+2022-08-05,Lowe's Home Improvement,"690 E Waterfront Dr, Munhall",400.76,Mark Prestenbak
+2022-09-14,Homecraft True Value Building Center,"3407 Library Rd, Pittsburgh",1829.78,Mark Prestenbak
+2022-07-23,Miller Ace Hardware,"237 Brownsville Rd, Pittsburgh",467.4,Mark Prestenbak
+2022-03-19,Busy Beaver,"47th St, Pittsburgh",745.81,Glen Murkowski
+2022-04-17,Busy Beaver,"4743 Plummer St, Pittsburgh",856.63,Beverly Miller
+2022-11-22,Mueller's Hardware Inc.,"524-526 E Ohio St, Pittsburgh",1047.02,Mark Prestenbak
+2021-12-28,Busy Beaver,"4743 Plummer St, Pittsburgh",282.59,Glen Murkowski
+2021-12-30,McIntryre Square Ace Hardware,"8080 McIntyre Square Dr, Pittsburgh",318.33,Glen Murkowski
+2022-05-13,Busy Beaver,"4743 Plummer St, Pittsburgh",43.01,Mark Prestenbak
+2022-05-05,Busy Beaver Building Center #53,"88 W Steuben St, Pittsburgh",769.7,Rajeev Saraswati
+2022-08-04,Schink's Hardware Inc,"515 Grant Ave, Duquesne",425.81,Mark Prestenbak
+2022-08-09,Steel City Jambs Inc,"4166 Library Rd, Pittsburgh",23.12,Mark Prestenbak
+2022-04-25,Lowe's Home Improvement,"690 E Waterfront Dr, Munhall",355.37,Teyana Briggs
+2022-05-20,Lowe's Home Improvement,"2100 Washington Pike, Carnegie",184.62,Rajeev Saraswati
+2022-07-24,Harbor Freight Tools,"4780 McKnight Rd #200, Pittsburgh",1237.87,Mark Prestenbak
+2022-10-01,Salik Hardware,"603 N Homewood Ave #7, Pittsburgh",332.68,Mark Prestenbak
+2022-10-08,Harbor Freight Tools,"4780 McKnight Rd #200, Pittsburgh",1133.44,Beverly Miller
+2022-01-31,HABITAT Hardware,"18 Neptune St, Pittsburgh",1281.31,Glen Murkowski
+2022-04-12,Homecraft True Value Building Center,"3407 Library Rd, Pittsburgh",417.42,Rajeev Saraswati
+2022-07-25,Lowe's Home Improvement,"690 E Waterfront Dr, Munhall",1505.99,Rajeev Saraswati
+2022-03-28,Lowe's Home Improvement,"5775 Baptist Rd, Bethel Park",2504.47,Rajeev Saraswati
+2022-07-25,Lowe's Home Improvement,"690 E Waterfront Dr, Munhall",394.85,Rajeev Saraswati
+2022-10-01,Harbor Freight Tools,"4780 McKnight Rd #200, Pittsburgh",1068.25,Beverly Miller
+2022-08-16,Lowe's Home Improvement,"690 E Waterfront Dr, Munhall",736.46,Teyana Briggs
+2022-06-12,Homecraft True Value Building Center,"3407 Library Rd, Pittsburgh",1041.61,Rajeev Saraswati
+2022-03-29,Stone & Company Builders Supply,"10249 Garnet Ln, Irwin",911.31,Teyana Briggs
+2022-01-16,HJDECORATION,"5815 Forbes Ave #2f, Pittsburgh",709.06,Glen Murkowski
+2022-02-01,Jackson Hardware,"3364 Universal Rd, Penn Hills",1844.29,Teyana Briggs
+2022-07-24,The Home Depot,"9971 Mountain View Dr, West Mifflin",81.15,Rajeev Saraswati
+2022-01-01,Harbor Freight Tools,"4780 McKnight Rd #200, Pittsburgh",3292.77,Glen Murkowski
+2022-02-08,McIntryre Square Ace Hardware,"8080 McIntyre Square Dr, Pittsburgh",311.67,Glen Murkowski
+2022-09-23,HABITAT Hardware,"18 Neptune St, Pittsburgh",405.82,Mark Prestenbak
+2022-09-10,Busy Beaver Building Center #29,"3130 William Pitt Way, Pittsburgh",592.09,Beverly Miller
+2023-01-27,Harbor Freight Tools,"374 Mall Cir Dr, Monroeville",550.32,Beverly Miller
+2022-05-18,The Home Depot,"9971 Mountain View Dr, West Mifflin",430.49,Rajeev Saraswati
+2022-06-08,Keller Hardware Co,"900 Penn Ave, Turtle Creek",650.09,Mark Prestenbak
+2022-01-22,The Home Depot,"999 Ross Park Mall Dr, Pittsburgh",852.06,Glen Murkowski
+2022-04-12,The Home Depot,"3550 William Penn Hwy, Pittsburgh",548.65,Teyana Briggs
+2022-02-25,Harbor Freight Tools,"4780 McKnight Rd #200, Pittsburgh",2598.67,Glen Murkowski
+2022-04-12,Mars Wholesale Supply,"1307 Walnut St, McKeesport",1140.96,Teyana Briggs
+2022-07-21,American Hardware of Cheswick,"1327 Pittsburgh St B, Cheswick",1600.59,Beverly Miller
+2022-08-10,Busy Beaver,"4743 Plummer St, Pittsburgh",560.81,Mark Prestenbak
+2022-02-17,Ace Hardware,"666 Allegheny River Blvd Ste 100, Oakmont",503.56,Glen Murkowski
+2021-12-31,Salik Hardware,"603 N Homewood Ave #7, Pittsburgh",570.62,Glen Murkowski
+2022-05-06,Lowe's Home Improvement,"5775 Baptist Rd, Bethel Park",555.11,Rajeev Saraswati
+2022-08-22,Harbor Freight Tools,"374 Mall Cir Dr, Monroeville",152.79,Beverly Miller
+2022-09-02,Master's Hardware,"7544 Roslyn St, Pittsburgh",388.69,Beverly Miller
+2022-11-28,Keener Hardware Inc,"3609 Brownsville Rd, Pittsburgh",1877.87,Mark Prestenbak
+2022-05-28,The Home Depot,"9971 Mountain View Dr, West Mifflin",141.29,Rajeev Saraswati
+2022-10-21,Lowe's Home Improvement,"690 E Waterfront Dr, Munhall",468.8,Mark Prestenbak
+2022-07-31,The Home Depot,"4000 Oxford Dr, Bethel Park",3370.63,Rajeev Saraswati
+2023-02-12,HJDECORATION,"5815 Forbes Ave #2f, Pittsburgh",538.86,Beverly Miller
+2022-12-08,Salik Hardware,"603 N Homewood Ave #7, Pittsburgh",928.66,Beverly Miller
+2022-07-23,Ace Hardware,"666 Allegheny River Blvd Ste 100, Oakmont",255.97,Beverly Miller
+2022-05-29,Homecraft True Value Building Center,"3407 Library Rd, Pittsburgh",79.23,Rajeev Saraswati
+2022-09-03,Harbor Freight Tools,"4780 McKnight Rd #200, Pittsburgh",70.71,Mark Prestenbak
+2022-06-25,Salik Hardware,"603 N Homewood Ave #7, Pittsburgh",72.44,Teyana Briggs
+2022-06-10,Lowe's Home Improvement,"690 E Waterfront Dr, Munhall",2261.9,Rajeev Saraswati
+2022-06-13,Miller Ace Hardware,"237 Brownsville Rd, Pittsburgh",641.52,Mark Prestenbak
+2021-12-19,Lowe's Home Improvement,"690 E Waterfront Dr, Munhall",122.08,Teyana Briggs
+2022-05-01,Eastwood Hardware,"11681 Penn Hills Dr, Pittsburgh",351.62,Teyana Briggs
+2022-02-15,Hastings Hardware,"1851 Babcock Blvd, Pittsburgh",1630.39,Glen Murkowski
+2022-05-06,Master's Hardware,"7544 Roslyn St, Pittsburgh",62.22,Teyana Briggs
+2022-03-06,The Home Depot,"3550 William Penn Hwy, Pittsburgh",1141.07,Teyana Briggs
+2022-07-23,Vogt True Value Hardware,"1308 E Carson St, Pittsburgh",980.4,Beverly Miller
+2022-03-02,Lowe's Home Improvement,"690 E Waterfront Dr, Munhall",979.59,Rajeev Saraswati
+2022-03-15,Mars Wholesale Supply,"1307 Walnut St, McKeesport",353.95,Teyana Briggs
+2022-04-27,Salik Hardware,"603 N Homewood Ave #7, Pittsburgh",377.91,Teyana Briggs
+2022-07-04,Steel City Jambs Inc,"4166 Library Rd, Pittsburgh",297.25,Mark Prestenbak
+2022-07-01,Rollier Hardware Inc,"600 Washington Rd, Mt Lebanon",507.48,Rajeev Saraswati
+2022-06-26,Vogt True Value Hardware,"1308 E Carson St, Pittsburgh",89.08,Mark Prestenbak
+2022-02-07,The Home Depot,"4000 Oxford Dr, Bethel Park",2558.43,Rajeev Saraswati
+2022-08-31,Hastings Hardware,"1851 Babcock Blvd, Pittsburgh",78.54,Mark Prestenbak
+2022-06-04,Keener Hardware Inc,"3609 Brownsville Rd, Pittsburgh",339.85,Rajeev Saraswati
+2022-07-19,Mueller's Hardware Inc.,"524-526 E Ohio St, Pittsburgh",716.51,Beverly Miller
+2022-06-03,Busy Beaver Building Center #53,"88 W Steuben St, Pittsburgh",43.36,Rajeev Saraswati
+2022-08-06,Ace Hardware,"666 Allegheny River Blvd Ste 100, Oakmont",298.37,Beverly Miller
+2022-04-03,The Home Depot,"3550 William Penn Hwy, Pittsburgh",232.63,Teyana Briggs
+2022-03-31,Eastwood Hardware,"11681 Penn Hills Dr, Pittsburgh",2541.08,Teyana Briggs
+2022-04-04,Westmoreland Supply,"10739 Lincoln Hwy, Irwin",775.11,Teyana Briggs
+2022-02-01,Busy Beaver,"47th St, Pittsburgh",9.73,Glen Murkowski

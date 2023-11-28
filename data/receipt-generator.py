@@ -192,6 +192,12 @@ def pick_date_for_receipt(project):
     receipt_days_in = round(days_between * random_gauss, 0)
     # 3. what day on the calendar is this?
     receipt_date = (project_start + datetime.timedelta(receipt_days_in)).date()
+
+    if receipt_date < project_start.date():
+        receipt_date = project_start.date()
+    if receipt_date > project_end.date():
+        receipt_date = project_end.date()
+
     return receipt_date
 
 
