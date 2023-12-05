@@ -1,4 +1,8 @@
-# accounting-receipts
+# Accounting Receipts Project
+## Scenario
+You are a project manager at a construction company in the Pittsburgh Area. 
+
+# About the Development of this Project (students can ignore this part)
 A project for python students to use scripting to reconstitute missing data
 
 
