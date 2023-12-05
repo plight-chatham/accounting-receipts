@@ -1,6 +1,10 @@
 # Accounting Receipts Project
 ## Scenario
-You are a project manager at a construction company in the Pittsburgh Area. 
+You are a project manager at a construction company in the Pittsburgh Area. In 2022, your company worked on 5 [projects](https://github.com/plight-chatham/accounting-receipts/blob/f2152a86a58f2008982e26cdec5022053c994126/data/projects.csv#L1) in the region. (The names listed on those projects are made up, but the addresses are real.)
+
+In the process of working on those projects, your crews needed to occasionally run out to get tools and supplies such as lumber. When they did, they drove to a hardware store near the job site and purchased what they needed. They dutifully saved and turned in their receipts using your company's accounting system.
+
+Now it is tax time and you need to figure out the costs spent on each project. Unfortunately, your accounting system does not have any association between receipt and project, or the team members who entered the data didn't see the field, or the software lost it, or whatever. You are left with 500 receipts, and you need a way to come up with a reasonable guess about which project they are associated with.
 
 # About the Development of this Project (students can ignore this part)
 A project for python students to use scripting to reconstitute missing data
