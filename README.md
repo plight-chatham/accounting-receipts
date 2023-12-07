@@ -6,6 +6,24 @@ In the process of working on those projects, your crews needed to occasionally r
 
 Now it is tax time and you need to figure out the costs spent on each project. Unfortunately, your accounting system does not have any association between receipt and project, or the team members who entered the data didn't see the field, or the software lost it, or whatever. You are left with 500 receipts, and you need a way to come up with a reasonable guess about which project they are associated with.
 
+## Getting Started
+1. Download this repository as a .zip file (see the "<> Code" button above.)
+2. Extract the .zip to a folder (preferably not your downloads folder, but it's your choice.)
+3. You may run this code with any tool you like. I recommend [PyCharm](https://jetbrains.com/pycharm/download/)
+4. Take a look at [main.py](https://github.com/plight-chatham/accounting-receipts/blob/main/main.py), [distance_api.py](https://github.com/plight-chatham/accounting-receipts/blob/main/distance_api.py). You can see what happens when you run either of them.
+5. Look at [projects.csv](https://github.com/plight-chatham/accounting-receipts/blob/main/data/projects.csv) and [receipts.csv](https://github.com/plight-chatham/accounting-receipts/blob/main/data/receipts.csv). These contain the input data you will work with. Note the column names in those files.
+
+## Reading in Receipts
+1. In main.py, the first code you will need to write is in [load_receipts_from_csv()](https://github.com/plight-chatham/accounting-receipts/blob/0dbe25569f06c69fe1ca5bfe3f4d61c2b1eb7f9b/main.py#L57).
+  * If you scroll up, you'll see another function `load_projects_from_csv()`. The "load receipts" function will be very similar to "load projects."
+  * However, you'll see that we're reading different columns of data out of the different csv files.
+  * If you need to learn more about .csv files, you can read more on the [wikipedia page](https://en.wikipedia.org/wiki/Comma-separated_values).
+  * Note that you'll be creating objects which are instances of the [receipt class](https://github.com/plight-chatham/accounting-receipts/blob/0dbe25569f06c69fe1ca5bfe3f4d61c2b1eb7f9b/receipt_classes.py#L57).
+  * The `__init__` function for Receipt accepts 3 parameters: when the receipt was purchased, the [Vendor](https://github.com/plight-chatham/accounting-receipts/blob/0dbe25569f06c69fe1ca5bfe3f4d61c2b1eb7f9b/receipt_classes.py#L32) that it came from, and the amount on the receipt.
+  * You will need to create a new `Vendor` object to make a `Receipt`.
+
+
+
 # About the Development of this Project (students can ignore this part)
 A project for python students to use scripting to reconstitute missing data
 
