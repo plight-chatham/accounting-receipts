@@ -21,6 +21,10 @@ Now it is tax time and you need to figure out the costs spent on each project. U
   * Note that you'll be creating objects which are instances of the [receipt class](https://github.com/plight-chatham/accounting-receipts/blob/0dbe25569f06c69fe1ca5bfe3f4d61c2b1eb7f9b/receipt_classes.py#L57).
   * The `__init__` function for Receipt accepts 3 parameters: when the receipt was purchased, the [Vendor](https://github.com/plight-chatham/accounting-receipts/blob/0dbe25569f06c69fe1ca5bfe3f4d61c2b1eb7f9b/receipt_classes.py#L32) that it came from, and the amount on the receipt.
   * You will need to create a new `Vendor` object to make a `Receipt`.
+  * Another problem you'll need to handle is that dates were formatted differently in projects.csv and receipts.csv. You can learn more about how to parse them by reading the [python documentation on datetime.strptime()](https://docs.python.org/3/library/datetime.html#strftime-strptime-behavior)
+
+## Associating Receipts with Projects
+1. 
 
 
 
