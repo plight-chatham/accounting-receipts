@@ -14,7 +14,7 @@ Now it is tax time and you need to figure out the costs spent on each project. U
 5. Look at [projects.csv](https://github.com/plight-chatham/accounting-receipts/blob/main/data/projects.csv) and [receipts.csv](https://github.com/plight-chatham/accounting-receipts/blob/main/data/receipts.csv). These contain the input data you will work with. Note the column names in those files.
 
 ## Reading in Receipts
-1. In main.py, the first code you will need to write is in [load_receipts_from_csv()](https://github.com/plight-chatham/accounting-receipts/blob/0dbe25569f06c69fe1ca5bfe3f4d61c2b1eb7f9b/main.py#L57).
+In main.py, the first code you will need to write is in [load_receipts_from_csv()](https://github.com/plight-chatham/accounting-receipts/blob/0dbe25569f06c69fe1ca5bfe3f4d61c2b1eb7f9b/main.py#L57).
   * If you scroll up, you'll see another function `load_projects_from_csv()`. The "load receipts" function will be very similar to "load projects."
   * However, you'll see that we're reading different columns of data out of the different csv files.
   * If you need to learn more about .csv files, you can read more on the [wikipedia page](https://en.wikipedia.org/wiki/Comma-separated_values).
@@ -24,7 +24,24 @@ Now it is tax time and you need to figure out the costs spent on each project. U
   * Another problem you'll need to handle is that dates were formatted differently in projects.csv and receipts.csv. You can learn more about how to parse them by reading the [python documentation on datetime.strptime()](https://docs.python.org/3/library/datetime.html#strftime-strptime-behavior)
 
 ## Associating Receipts with Projects
-1. 
+Now that you have read in all the receipts to go along with the projects, it's time to start working on associating each receipt with a project.
+
+1. Look at the code in `main()` which says "your code here". This is where you can add your processing of each receipt.
+2. Consider using a loop to look at each receipt. Look at the loop in `print_summary_of_receipts` for an example.
+3. Each receipt contains two important pieces of information:
+   * The *date* of the transaction, which is called **when** in the `Receipt` class. Each project has a date range, defined by the *Contract date* and *Work Completion Date*. Workers would not be buying supplies for a project outside of these dates.
+   * The *address* of the retailer where the supplies were purchased. Workers on the project are unlikely to travel all the way across the city, and would instead go to suppliers which are near the work site.
+4. For each receipt, you'll want to consider each of the projects. Using the date and address information you have, do you think the project is a possible match? Do you think that it's likely?
+5. Once your code makes a guess for each receipt, set the `receipt.client` field with the name of the project client.
+6. Then, you'll want to write all of your results to a new .csv in the data folder. There is a function called [write_receipts](https://github.com/plight-chatham/accounting-receipts/blob/252b5ef2cc67de0430f8884acf8aba39d03f1237/data/receipt-generator.py#L204) in the script I used to generate the input file which does exactly this. You could consider copy/paste/modifying this code to work with the `Receipt` objects that you've loaded and updated.
+7. Write your output to a file like `data/guesses.csv`
+8. Compare it to [answer-key.csv](https://github.com/plight-chatham/accounting-receipts/blob/main/data/answer-key.csv) - how many of your guesses were correct?
+9. If it wasn't very many, consider iterating on your logic in steps 3-4.
+
+## Measuring Distances Between Two Addresses
+In a "real world" project, we might consider using something like the [Google Maps python libraries](https://developers.google.com/maps/web-services/client-library) to measure distances between two addresses (such as vendor and project addresses.) However, getting this set up is more complicated than we need for this class. 
+
+Therefore, I have provided a simple API (which stands for "Application Programming Interface") which will tell you the distance in km between any two addresses in our data set. You can call it as a function called `get_distance(address1, address2)` in [distance_api](https://github.com/plight-chatham/accounting-receipts/blob/main/distance_api.py). This is already available in your code with the variable name `dapi`. Look at the [test code](https://github.com/plight-chatham/accounting-receipts/blob/252b5ef2cc67de0430f8884acf8aba39d03f1237/distance_api.py#L48) to see how to use it.
 
 
 
